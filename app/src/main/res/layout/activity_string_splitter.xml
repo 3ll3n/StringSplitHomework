@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ECEFF1"
     android:id="@+id/ativity_string_splitter"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,8 +13,10 @@
     android:orientation="vertical">
 
     <EditText
+        android:textColor="#000000"
         android:id="@+id/words"
         android:hint="Enter your sentence"
+        android:textColorHint="#000000"
         android:textSize="30dp"
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"
@@ -21,6 +24,7 @@
         />
 
     <Button
+        android:background="#FCE4EC"
         android:onClick="onShakeButtonClicked"
         android:id="@+id/shake_btn"
         android:text="Confirm word count"
@@ -28,5 +32,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="25dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/answer_text"-->
+        <!--android:textSize="30dp"-->
+        <!--android:text=""-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
 
 </LinearLayout>

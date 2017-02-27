@@ -12,6 +12,7 @@ public class StringSplitter {
         this.input = input;
     }
 
+
     public int countWords() {
         String[] words = input.split(" ");
         int counter = 0;
