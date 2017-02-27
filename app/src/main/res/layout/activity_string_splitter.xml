@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ativity_string_splitter"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,8 +8,8 @@
     android:paddingLeft="64dp"
     android:paddingRight="64dp"
     android:paddingTop="16dp"
-    android:orientation="vertical"
-   >
+    tools:context="com.codeclan.example.stringsplit.StringSplitterActivity"
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/words"
