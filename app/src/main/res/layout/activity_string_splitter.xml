@@ -20,4 +20,13 @@
         android:layout_height="wrap_content"
         />
 
+    <Button
+        android:onClick="onShakeButtonClicked"
+        android:id="@+id/shake_btn"
+        android:text="Confirm word count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"/>
+
 </LinearLayout>

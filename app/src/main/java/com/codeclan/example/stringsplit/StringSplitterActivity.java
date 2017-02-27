@@ -2,6 +2,7 @@ package com.codeclan.example.stringsplit;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 import android.widget.EditText;
 
 /**
@@ -11,6 +12,7 @@ import android.widget.EditText;
 public class StringSplitterActivity extends AppCompatActivity {
 
     EditText words;
+    Button shakeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,5 +20,6 @@ public class StringSplitterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_string_splitter);
 
         words = (EditText)findViewById(R.id.words);
+        shakeButton = (Button)findViewById(R.id.shake_btn);
     }
 }
