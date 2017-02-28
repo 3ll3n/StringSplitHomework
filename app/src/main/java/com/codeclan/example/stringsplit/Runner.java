@@ -7,7 +7,6 @@ package com.codeclan.example.stringsplit;
 public class Runner {
 
     public static void main(String[] args) {
-        StringSplitter splitter = new StringSplitter("Hello, my name is Jeff");
-        splitter.countWords();
+
     }
 }

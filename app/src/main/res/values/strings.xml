@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StringSplit</string>
+    <string name="wordsToCountText">Words to count</string>
 </resources>

@@ -9,11 +9,17 @@ import static org.junit.Assert.assertEquals;
  * Created by user on 27/02/2017.
  */
 
-public class TestStringSplitter {
+public class TestWordCounter{
+
+    WordCounter counter;
+
+    @Before
+    public void before() {
+        counter = new WordCounter();
+    }
 
     @Test
     public void testCountWords() {
-        StringSplitter splitter = new StringSplitter("Hello world");
-        assertEquals(2, splitter.countWords());
+        assertEquals(2, counter.getCount("Sake man"));
     }
 }
